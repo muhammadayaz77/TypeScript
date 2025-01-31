@@ -1,0 +1,2 @@
+RECURSION : 
+Recursion is a technique where a function calls itself to solve a problem. It breaks the problem into smaller subproblems until a "{base condition}" is met.
