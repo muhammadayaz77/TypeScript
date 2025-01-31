@@ -1,0 +1,13 @@
+BUBBLE SORTING : 
+COMPLEXITY : 
+BEST CASE : O(n) 
+=====(already sort)====
+if already sort no "swap occur"
+so we add "swapped flag"
+
+AVERAGE CASE : O(n^2)
+WORSE CASE : O(n^2)
+
+The outer loop runs n times.
+The inner loop runs n - 1, n - 2, ..., 1 times.
+This results in approximately n² / 2 comparisons → O(n²).
