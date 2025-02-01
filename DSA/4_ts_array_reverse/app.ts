@@ -1,7 +1,4 @@
 
-
-
-
 let reverseAnArray = (data:number[],start:number,end : number):number[] | undefined => {
   if( data == undefined)
   {
