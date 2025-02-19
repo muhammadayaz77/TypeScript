@@ -1,17 +1,23 @@
 
 
-interface buttonProps {
-  setCount : React.Dispatch<React.SetStateAction<number>>
+interface buttonProps<T> {
+  count : T,
+  countHistory : T[]
     
 }
 
-function Button({setCount} : buttonProps) {
-  setCount(1)
+// const convertToArray = <T,>(val : T):T[] => {
+//   return [val]
+// }
+// convertToArray('hi')
+// convertToArray(5)
+
+function Button<T>({count,countHistory} : buttonProps<T>) {
   return (
     <div>
       <button>Click</button>
     </div>
   )
 }
-
+ 
 export default Button
