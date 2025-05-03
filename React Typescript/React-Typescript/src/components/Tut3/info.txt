@@ -1,0 +1,9 @@
+in this tut03 : 
+    I have studied about props to pass to components 
+    and give the type it gives you benefits of 
+
+    ================>(01)<===============
+    auto complete the name of props in child components
+    
+    ================>(02)<===============
+    not pass other type except the type used 
