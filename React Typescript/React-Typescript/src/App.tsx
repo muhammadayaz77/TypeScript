@@ -5,6 +5,7 @@ import Heading from "./components/Tut5/Heading"
 import Oscer from "./components/Tut5/Oscer"
 import Status from "./components/Tut5/Status"
 import Button from "./components/Tut6/Button"
+import StyleCss from './components/Tut7/StyleCss'
 
 function App() {
   const name = {
@@ -41,6 +42,8 @@ function App() {
       onClickHandler={(e) => {
         console.log('clicked',e)
       }} />
+      {/* Tut - =====(7)===== */}
+      <StyleCss styles={{fontSize : "50px",color : 'red'}} />
     </div>
   )
 }
