@@ -1,12 +1,8 @@
+import { GreetProps } from "../utils/Props.type";
+
 // type GreetProps = {
 //   name : string
 // }
-
-interface GreetProps{
-  name : string,
-  countMessage : number,
-  isLoggedIn : boolean
-}
 
 
 const Greet = (props : GreetProps) => {
