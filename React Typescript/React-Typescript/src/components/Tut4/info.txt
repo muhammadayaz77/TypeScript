@@ -1,0 +1,9 @@
+in tut4 : 
+          I have cover props with : 
+              {
+                string,
+                number , 
+                boolean , 
+                array , 
+                object
+              }
