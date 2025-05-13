@@ -20,7 +20,7 @@ const UserAuth = () => {
       <button onClick={handleLogin}>login</button>
       <button onClick={handleLogout}>logout</button>
       <h2>Name : {auth?.name || "Not found"}</h2>
-      <h2>Name : {auth?.email || "Not found"}</h2>
+      <h2>Email : {auth?.email || "Not found"}</h2>
       <h1>You are {auth ? 'login' : 'logout'}</h1>
     </div>
   );

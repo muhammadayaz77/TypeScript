@@ -1,4 +1,5 @@
 import UserAuth from "./components/Tut10/UserAuth"
+import TypeAssertion from "./components/Tut11/TypeAssertion"
 import Greet from "./components/Tut3/Greet"
 import Person from "./components/Tut4/Person"
 import PersonList from "./components/Tut4/PersonList"
@@ -50,6 +51,8 @@ function App() {
       <Auth />
       {/* Tut - =====(10)===== */}
       <UserAuth />
+      {/* Tut - =====(11)===== */}
+      <TypeAssertion />
 
     </div>
   )
