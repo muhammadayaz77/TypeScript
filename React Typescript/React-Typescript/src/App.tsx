@@ -53,6 +53,8 @@ function App() {
       <UserAuth />
       {/* Tut - =====(11)===== */}
       <TypeAssertion />
+      {/* Tut - =====(16)===== */}
+      <DomRef />
 
     </div>
   )
