@@ -1,5 +1,8 @@
 import UserAuth from "./components/Tut10/UserAuth"
 import TypeAssertion from "./components/Tut11/TypeAssertion"
+import DomRef from "./components/Tut16/DomRef"
+import Private from "./components/Tut18/Private"
+import Profile from "./components/Tut18/Profile"
 import Greet from "./components/Tut3/Greet"
 import Person from "./components/Tut4/Person"
 import PersonList from "./components/Tut4/PersonList"
@@ -55,6 +58,8 @@ function App() {
       <TypeAssertion />
       {/* Tut - =====(16)===== */}
       <DomRef />
+      {/* Tut - =====(18)===== */}
+      <Private isLoggedIn={true} Component={Profile}  />
 
     </div>
   )
