@@ -3,6 +3,7 @@ import TypeAssertion from "./components/Tut11/TypeAssertion"
 import DomRef from "./components/Tut16/DomRef"
 import Private from "./components/Tut18/Private"
 import Profile from "./components/Tut18/Profile"
+import List from "./components/Tut19/List"
 import Greet from "./components/Tut3/Greet"
 import Person from "./components/Tut4/Person"
 import PersonList from "./components/Tut4/PersonList"
@@ -60,6 +61,26 @@ function App() {
       <DomRef />
       {/* Tut - =====(18)===== */}
       <Private isLoggedIn={true} Component={Profile}  />
+      {/* Tut - =====(19)===== */}
+      {/* <List list={['ayaz','khan']} />
+      <List list={[1,2]} /> */}
+      <List
+  list={[
+    {
+      name: 'ayaz',
+      class: 9,
+    },
+    {
+      name: 'ali',
+      class: 10,
+    },
+  ]}
+  renderItem={(item) => (
+    <p>
+      Name: {item.name}, Class: {item.class}
+    </p>
+  )}
+/>
 
     </div>
   )
