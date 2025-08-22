@@ -3,7 +3,7 @@ type StatusProps = {
 }
 
 const Status = ({status} : StatusProps) => {
-  let message:string;
+  let message:string = '';
 
   if(status === "loading"){
     message = 'loading'
@@ -11,7 +11,7 @@ const Status = ({status} : StatusProps) => {
     message = 'success'
   }
   return (
-    <div>Status - {status}</div>
+    <div>Status - {status} {message}</div>
   );
 };
 
